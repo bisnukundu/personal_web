@@ -1,4 +1,5 @@
-@media screen and (max-width: 960px) {
+
+@media screen and (max-width: 1200px) {
   
     .menu {
         justify-content: start;
@@ -22,6 +23,7 @@
     .our_team_section{
     width: fit-content;
 }
+
     .our_project{
         width: fit-content;
     }
@@ -32,6 +34,7 @@
         display:block;
         justify-self: end;
     }
+	.slider{}
   }
 
   /* ============================== */
@@ -66,3 +69,21 @@
         font-size: 35px;
     }
   }
+  /* ============================================ */
+    @media screen and (max-width: 320px) {
+    .our_team {
+        grid-template-columns: repeat(1,1fr); 
+    }
+    .all_op {
+        grid-template-columns: repeat(1,1fr);
+    }
+	.logo img {
+    width: 220px;
+	}
+	.menu_icon {
+    width: 100px;
+}
+  }
+  
+  
+  
