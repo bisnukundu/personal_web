@@ -35,6 +35,7 @@ header{
     width:50px;
     cursor:pointer;
     display:none;
+	transition:1s;
 }
 .logo img{
     width:100px;
