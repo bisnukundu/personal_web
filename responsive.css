@@ -1,0 +1,68 @@
+@media screen and (max-width: 960px) {
+  
+    .menu {
+        justify-content: start;
+        grid-auto-flow: row;
+        transform: rotateX(100deg);
+        opacity:0;
+        transform-origin:top;
+        display:none;  
+    }
+    .menu_block{
+        transform: rotateX(0deg);
+		opacity:1;
+        display:block;
+    }
+    .our_team {
+        grid-template-columns: repeat(3,1fr); 
+    }
+    header{
+        width: fit-content;
+    }
+    .our_team_section{
+    width: fit-content;
+}
+    .our_project{
+        width: fit-content;
+    }
+    #contact {
+        width: fit-content;
+    }
+    .menu_icon{
+        display:block;
+        justify-self: end;
+    }
+  }
+
+  /* ============================== */
+  @media screen and (max-width: 768px) {
+  
+    .our_team {
+        grid-template-columns: repeat(2,1fr); 
+    }
+    .all_op {
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
+  /* =============================== */
+  @media screen and (max-width: 480px) {
+    .contact_content {
+        grid-template-columns: 100%;
+    }
+    input {
+        padding: 30px;
+    }
+    .ot_title {
+        font-size: 60px;
+    }
+    .op_title {
+        font-size: 60px;
+    }
+    .form h1 {
+        font-size: 60px;
+    }
+    .form button {
+        padding: 30px;
+        font-size: 35px;
+    }
+  }
